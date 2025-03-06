@@ -1,0 +1,222 @@
+:root {
+    --primary_1: #F6F9FC;
+    --primary_2: #E5591F;
+    --primary_3: #54595f;
+    --black: #000000;
+    --primary_4: #F15543;
+
+}
+
+#pricing_sec {
+    overflow: hidden;
+    padding-bottom: 1.4rem;
+}
+
+#pricing_sec .inner-container {
+    margin-left: auto;
+    max-width: 1140px;
+    margin-right: auto;
+    position: relative;
+}
+
+#pricing_sec h4 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 21px;
+    letter-spacing: 2.6px;
+    color: var(--primary_2);
+    text-align: center;
+}
+
+#pricing_sec .main_heading {
+    text-align: center;
+    font-family: "Barlow", Sans-serif;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 63px;
+    letter-spacing: 1.8px;
+    color: var(--black);
+}
+
+#pricing_sec .custom-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pricing_sec .pricing-divider {
+    width: 15%;
+}
+
+#pricing_sec .pricing_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 1rem;
+}
+
+.pricing_container .pric_col {
+    background: var(--primary_1);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 32px 22px 32px 22px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    margin-top: 1rem;
+}
+
+.pric_col h3 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 27px;
+    font-weight: 800;
+    color: #000000;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.pack_pric_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pack_pric_container .package_amount {
+    font-family: "Barlow", Sans-serif;
+    font-size: 55px;
+    font-weight: 800;
+    color: var(--primary_4);
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.pack_pric_container .pack_dc {
+    font-family: "Roboto", Sans-serif;
+    font-size: 31px;
+    font-weight: 600;
+    color: var(--primary_4);
+    position: relative;
+    top: 5px;
+    margin-bottom: 0;
+}
+
+.pric_col p {
+    text-align: center;
+    color: var(--black);
+    font-family: "Barlow", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--black);
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.pric_col .pric_list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    max-height: 290px;
+    overflow-y: scroll;
+min-width: 325px;
+
+}
+
+.pric_list::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    transition: 0.6s linear;
+}
+
+.pric_list::-webkit-scrollbar-track {
+    background: #888;
+}
+
+.pric_list::-webkit-scrollbar-thumb {
+    background: var(--hv_color);
+}
+
+
+.pric_list li {
+    cursor: pointer;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #B6B2B2;
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.pric_list li:last-child {
+    border-bottom: 0;
+}
+
+.pric_list li:hover {
+    color: var(--primary_2);
+}
+
+.pric_list li i {
+    margin-right: 8px;
+    color: #54595f;
+}
+
+
+.pric_col a {
+    background-color: #F15543;
+    font-family: Roboto, Sans-serif;
+    font-weight: 500;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #6EC1E4;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 1;
+    padding: 12px 24px;
+    text-align: center;
+    transition: all .3s;
+    border-radius: 3px;
+    width: max-content;
+    margin-top: 0.5rem;
+}
+
+.pric_col a:focus {
+    background-color: #69727D;
+    color: #FFFFFF;
+    transform: translateY(-5px);
+    transition-duration: .3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+@media screen and (max-width: 999px) {
+
+    #pricing_sec .main_heading {
+        font-size: 33px;
+    }
+
+    #pricing_sec .pricing_container {
+        grid-template-columns: 1fr;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #pricing_sec .pricing-divider {
+        width: 81%;
+    }
+
+    .pricing_container .pric_col {
+        padding: 32px 20px 32px 20px;
+    }
+
+    .pric_col .pric_list {
+        min-width: 315px;
+    }
+}

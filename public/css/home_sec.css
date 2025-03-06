@@ -1,0 +1,878 @@
+/* service is given   */
+#our-service {
+    background-image: url(../assets/M2.webp);
+    background-position: top left;
+    background-repeat: no-repeat;
+
+}
+
+#our-service .our-ser-container {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.our-ser-container h6 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 2.6px;
+    color: #E5591F;
+    text-align: center;
+}
+
+.our-ser-container h3 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 1.3px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#our-service .our-ser-wraps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 1.5rem;
+}
+
+#our-service .s_card {
+    position: relative;
+    min-width: 261px;
+    min-height: 259px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+
+
+/* */
+
+.sr_card-header {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-image: url(../assets/Untitled-design-15.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    transition: 1.2s linear;
+}
+
+
+.sr_card-header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.sr_card-header:hover {
+    transform: scale(1.1);
+}
+
+.sr_card-header:hover::after {
+    opacity: 1;
+
+}
+
+.sr_card-header_2,
+.sr_card-header_3,
+.sr_card-header_4,
+.sr_card-header_5,
+.sr_card-header_6 {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    transition: 1.2s linear;
+}
+
+.sr_card-header_2 {
+    background-image: url(../assets/Untitled-design-16-1024x576.png);
+}
+
+.sr_card-header_3 {
+    background-image: url(../assets/Untitled-design-18.png);
+}
+
+.sr_card-header_4 {
+    background-image: url(../assets/Untitled-design-19.png);
+}
+
+.sr_card-header_5 {
+    background-image: url(../assets/Untitled-design-22.png);
+}
+
+.sr_card-header_6 {
+    background-image: url(../assets/Untitled-design-23.png);
+}
+
+.sr_card-header_2::after,
+.sr_card-header_3::after,
+.sr_card-header_4::after,
+.sr_card-header_5::after,
+.sr_card-header_6::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* Dark overlay */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.sr_card-header_2:hover,
+.sr_card-header_3:hover,
+.sr_card-header_4:hover,
+.sr_card-header_5:hover,
+.sr_card-header_6:hover {
+    transform: scale(1.1);
+    /* Zoom-in effect */
+}
+
+.sr_card-header_2:hover::after,
+.sr_card-header_3:hover::after,
+.sr_card-header_4:hover::after,
+.sr_card-header_5:hover::after,
+.sr_card-header_6:hover::after {
+    opacity: 1;
+    /* Show overlay on hover */
+}
+
+
+.sr_card-content {
+    background: #FFFFFF00;
+    height: 138px;
+    background-image: url("https://theautotrust.co.uk/wp-content/uploads/2024/07/2607293_4981.jpg.webp");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .4s;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 35px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.sr_card-content h1 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+
+
+
+.sr_card-content .sr_card_btn {
+    font-family: "Barlow", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px solid #3f444b;
+    color: #3f444b;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    transition: all 3s;
+    line-height: 1;
+    padding: 12px 24px;
+}
+
+
+
+/* Auto Trust is given */
+
+#auto-trust_section {
+    background-image: url(../assets/car-4361321_1280.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 690px;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0em 0em 0em 0em;
+    position: relative;
+}
+
+
+#auto-trust_section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    min-height: 690px;
+}
+
+
+#auto-trust_section .auto-trust-content {
+    z-index: 10;
+    padding-top: 18rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 1004px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    position: relative;
+    text-align: center;
+
+}
+
+.auto-trust-content h3 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFFFFF;
+
+}
+
+.auto-trust-content p {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Barlow", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.brad-container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.brand-wrap {
+    background-color: #E5591F;
+    border-radius: 30px 30px 30px 30px;
+    color: white;
+    margin-top: -7rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-bottom: 20px;
+    z-index: 11;
+
+}
+
+.brand-wrap .brand-carousel {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    max-width: 1140px;
+}
+
+
+
+
+/* Auto Trust is End */
+
+
+
+
+/* Reliable Trust is given */
+
+#relabile_trust {
+    background-image: url(../assets/aston-martin-2118857_1280.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 580px;
+    position: relative;
+    margin-bottom: 5.4rem;
+}
+
+#relabile_trust .overlay {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#relabile_trust .relabile-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+.relabile-content {
+    position: relative;
+    max-width: 950px;
+}
+
+.relabile-content h1 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.relabile-content p {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Barlow", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* Reliable Trust is End */
+
+
+/* Why Choose us is given */
+#why_choose_us_sec {
+    overflow: hidden;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 100px;
+}
+
+
+#why_choose_us_sec .choose_sec_container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#why_choose_us_sec .choose_us_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2.5rem;
+}
+
+.choose_us_wrap .choose_us-col {
+    overflow: hidden;
+}
+
+.choose_us-col h4 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 3.4px;
+    color: #E5591F;
+    margin-bottom: 1rem;
+}
+
+.choose_us-col h1 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 62px;
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: 57px;
+    letter-spacing: 1.3px;
+    color: #000000;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.sec_chosse_2 .cmt_parag {
+    color: #000000;
+    font-family: "Barlow", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    margin-bottom: 7em;
+    position: relative;
+    top: 3.4rem;
+}
+
+
+#why_choose_us_sec .why_choose_inner_wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: 1rem;
+    row-gap: 2.5rem;
+}
+
+.why_choose_inner_wrap .why_col {
+    display: flex;
+    column-gap: 1rem;
+}
+
+.why_col figure {
+    width: 25%;
+}
+
+.why_col .content h2 {
+    margin-bottom: 6px;
+    color: #000000;
+    font-family: "Barlow", Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.why_col .content p {
+    color: #3F3F3F;
+    font-family: "Barlow", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 86%;
+
+}
+
+/* Why Choose us is End */
+
+
+#parallex_bg {
+    background-image: url(../assets/f6romjsomru.jpg.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    background-attachment: fixed;
+
+}
+
+/* testimonials is given */
+#testimonials {
+    max-width: 100%;
+    overflow: hidden;
+    /* background: #292442; */
+}
+
+
+#testimonials .testinonal_container {
+    max-width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+
+}
+
+.testinonal_container .testi_img {
+    background-image: url(../assets/illustration-blue-hatchback-car-with-woman-e1660207998112.jpg-1024x646.webp);
+    background-position: 8px 108px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 490px;
+    min-height: 496px;
+}
+
+.testinonal_container .testimonial_content {
+    max-width: 800px;
+    position: relative;
+}
+
+.testimonial_content h5 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 21px;
+    letter-spacing: 2.6px;
+    color: #E5591F;
+}
+
+.testimonial_content h1 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 47px;
+    font-weight: 800;
+    line-height: 47px;
+    letter-spacing: 1.8px;
+    color: #000000;
+
+}
+
+.testimonial_content .test_f_logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 999px;
+    box-sizing: content-box;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+
+.carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml,%3Csvg%20aria-hidden%3D%22true%22%20class%3D%22e-font-icon-svg%20e-eicon-chevron-left%22%20viewBox%3D%220%200%201000%201000%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M646%20125C629%20125%20613%20133%20604%20142L308%20442C296%20454%20292%20471%20292%20487%20292%20504%20296%20521%20308%20533L604%20854C617%20867%20629%20875%20646%20875%20663%20875%20679%20871%20692%20858%20704%20846%20713%20829%20713%20812%20713%20796%20708%20779%20692%20767L438%20487%20692%20225C700%20217%20708%20204%20708%20187%20708%20171%20704%20154%20692%20142%20675%20129%20663%20125%20646%20125Z%22%2F%3E%3C%2Fsvg%3E');
+    fill: hsla(0, 0%, 93%, .9);
+    height: 1em;
+    width: 1em;
+}
+
+.carousel-control-next-icon {
+    background-image: url('data:image/svg+xml,%3Csvg%20aria-hidden%3D%22true%22%20class%3D%22e-font-icon-svg%20e-eicon-chevron-right%22%20viewBox%3D%220%200%201000%201000%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M696%20533C708%20521%20713%20504%20713%20487%20713%20471%20708%20454%20696%20446L400%20146C388%20133%20375%20125%20354%20125%20338%20125%20325%20129%20313%20142%20300%20154%20292%20171%20292%20187%20292%20204%20296%20221%20308%20233L563%20492%20304%20771C292%20783%20288%20800%20288%20817%20288%20833%20296%20850%20308%20863%20321%20871%20338%20875%20354%20875%20371%20875%20388%20867%20400%20854L696%20533Z%22%2F%3E%3C%2Fsvg%3E');
+    fill: hsla(0, 0%, 93%, .9);
+    height: 1em;
+    width: 1em;
+
+}
+
+.carousel-control-prev {
+    width: max-content;
+    left: -3.4%;
+    top: 30%;
+}
+
+.carousel-control-next {
+    width: max-content;
+    top: 30%;
+    right: -30px
+}
+
+.testimonial_content .testimonal_col_wrap {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.testimonial-content p {
+    font-family: "Barlow", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7a7a7a;
+    line-height: 1.5;
+}
+
+.lg_rev {
+    display: block !important;
+}
+
+.xs_rev {
+    display: none !important;
+}
+
+.testimonial_content .testimonial_header {
+    margin-bottom: 0.5rem;
+}
+
+/* testimonials is End */
+
+
+
+#content #home_Care_sh {
+    margin-top: -80px;
+}
+
+
+
+@media screen and (max-width: 999px) {
+
+    #our-service .our-ser-container {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 1.6rem;
+        padding-right: 1.6rem;
+    }
+
+    .our-ser-container h3 {
+        margin-bottom: 1.5rem;
+    }
+
+    #our-service .our-ser-wraps {
+        grid-template-columns: 1fr;
+    }
+
+    .sr_card-header {
+        height: 250px;
+    }
+
+    .sr_card-header_2 {
+        height: 250px;
+    }
+
+    .sr_card-header_3 {
+        height: 250px;
+    }
+
+    .sr_card-header_4 {
+        height: 250px;
+    }
+
+    .sr_card-header_5 {
+        height: 250px;
+    }
+
+    .sr_card-header_6 {
+        height: 250px;
+    }
+
+    .brad-container {
+        max-width: 355px;
+        margin-top: -3rem;
+    }
+
+    .brand-wrap {
+        margin-top: -6rem;
+    }
+
+    #auto-trust_section {
+        min-height: max-content;
+        padding: 2em 0em 6em 0em;
+    }
+
+    #auto-trust_section .overlay {
+        min-height: 100%;
+
+    }
+
+    #auto-trust_section .auto-trust-content {
+        padding-top: 3.2rem;
+        max-width: 100%;
+    }
+
+    .auto-trust-content h3 {
+        font-size: 23px;
+        line-height: 1.6em;
+    }
+
+    .auto-trust-content p {
+        font-size: 12px;
+    }
+
+
+    #relabile_trust .relabile-wrap {
+        height: 100%;
+        position: relative;
+        top: 5.7rem;
+    }
+
+    #relabile_trust {
+        min-height: 350px;
+        overflow: hidden;
+    }
+
+    .relabile-content {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .relabile-content h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .relabile-content p {
+        font-size: 13px;
+    }
+
+    #why_choose_us_sec {
+        padding-bottom: 50px;
+    }
+
+    #why_choose_us_sec .choose_sec_container {
+        max-width: 100%;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    #why_choose_us_sec .choose_us_wrap {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    #why_choose_us_sec .why_choose_inner_wrap {
+        grid-template-columns: 1fr;
+    }
+
+    .choose_us-col h1 {
+        font-size: 26px;
+        line-height: 1.3em;
+
+    }
+
+    .why_choose_inner_wrap .why_col {
+        flex-direction: column;
+    }
+
+    .sec_chosse_2 .cmt_parag {
+        margin-bottom: 4em;
+        position: relative;
+        top: 1.7rem;
+    }
+
+    .why_col figure {
+        width: 12%;
+    }
+
+    #parallex_bg {
+        display: none;
+    }
+
+
+    #testimonials .testinonal_container {
+        max-width: 100%;
+        flex-direction: column;
+        margin-bottom: 1.4rem;
+    }
+
+    .testinonal_container .testi_img {
+        display: none;
+    }
+
+    .testimonial_content {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .testimonial_content h1 {
+        font-size: 33px;
+    }
+
+    .testimonial-content p {
+        font-size: 15px;
+    }
+
+    .carousel-control-prev {
+        left: -28px;
+        top: 0;
+    }
+
+    .carousel-control-next {
+        right: -28px;
+        top: 0;
+    }
+
+    .lg_rev {
+        display: none !important;
+    }
+
+    .xs_rev {
+        display: block !important;
+    }
+
+
+    #testimonialCarouselMobile {
+        width: 290px;
+    }
+
+
+}
+
+
+@media screen and (min-width:999px) and (max-width:1300px) {
+    #our-service .our-ser-wraps {
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+    }
+
+    .service-wrap {
+        grid-template-columns: 340px 680px;
+        column-gap: 25px;
+    }
+
+    .service_col2 h1 {
+        font-size: 38px;
+        line-height: 47px;
+    }
+
+    .sr_card-content h1 {
+        width: 100%;
+    }
+
+    .sr_card-header {
+        height: 305px;
+    }
+
+    .sr_card-header_2 {
+        height: 305px;
+    }
+
+    .sr_card-header_3 {
+        height: 305px;
+    }
+
+    .sr_card-header_4 {
+        height: 305px;
+    }
+
+    .sr_card-header_5 {
+        height: 305px;
+    }
+
+    .sr_card-header_6 {
+        height: 305px;
+    }
+
+    .service-section .featured_gallery {
+        flex-wrap: wrap;
+    }
+
+    .service_col2 p {
+        width: 90%;
+    }
+
+
+
+    .featured_gallery {
+        padding-left: 1.3rem;
+        padding-right: 1.3rem;
+    }
+
+    .featured_gallery img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .brad-container {
+        max-width: 950px;
+    }
+
+    #why_choose_us_sec .choose_sec_container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .why_col figure {
+        width: 29%;
+    }
+
+    .carousel-control-next {
+        right: 0;
+        top: 0;
+    }
+
+    .carousel-control-prev {
+        top: 0;
+    }
+
+    .testinonal_container .testimonial_content {
+        max-width: 640px;
+    }
+}

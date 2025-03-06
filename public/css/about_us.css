@@ -1,0 +1,134 @@
+:root {
+    --hv_color: #F15543;
+    --txt_color: #333;
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+#about-us {
+    overflow-x: hidden;
+}
+
+#about-us #about_care_shcs {
+    padding-top: 1rem;
+    background: #020202;
+}
+
+#about-us #vision_sec {
+    background-image: url(../assets/fmbwfdivrps.jpg.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 660px;
+    padding-top: 6.7rem;
+}
+
+#vision_sec .vision_container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vision_container .vision_contain_wrap {
+    display: flex;
+    align-items: center;
+    column-gap: 1.6rem;
+}
+
+.vision_contain_wrap .vision_Col1 {
+    background: #4B4B4B96;
+    min-height: 400px;
+    max-width: 490px;
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform 4s;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.vision_Col1 .icon_contain {
+    background: #4B4B4B96;
+    fill: #F15543;
+    color: #F15543;
+    color: #69727d;
+    padding: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.vision_Col1 .icon_contain svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.vision_Col1 .vision_content {
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+}
+
+.vision_Col1 .vision_content h4 {
+    text-align: center;
+}
+
+.vision_col2 {
+    background: #020202a5;
+    position: relative;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    padding-left: 1rem;
+}
+
+.vision_col2 h6 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 1.4em;
+    letter-spacing: 0.25em;
+    color: #F15543;
+    margin-bottom: 1.8rem;
+
+}
+
+.vision_col2 h4 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 27px;
+    letter-spacing: 1.3px;
+    color: #FFFFFF;
+    margin-bottom: 1.9rem;
+}
+
+.vision_col2 p {
+    color: #F3F3F3;
+    font-family: "Barlow", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 999px) {
+    #about-us #vision_sec {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #vision_sec .vision_container {
+        max-width: 100%;
+
+    }
+
+    .vision_container .vision_contain_wrap {
+        flex-direction: column;
+    }
+    .vision_col2 {
+        background: #111111d3;
+    }
+}

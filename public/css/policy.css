@@ -1,0 +1,151 @@
+ #policy_sec {
+     max-width: 100%;
+     overflow: hidden;
+ }
+
+
+ #policy_sec .policy_content_sec {
+     padding-top: 4rem;
+     padding-bottom: 4rem;
+
+ }
+
+ .policy_content_sec .policy_container {
+     max-width: 1140px;
+     margin-left: auto;
+     margin-right: auto;
+
+ }
+
+ .policy_container h1 {
+     font-family: "Barlow", Sans-serif;
+     font-size: 26px;
+     font-weight: 800;
+     letter-spacing: 1.3px;
+     color: #000000;
+ }
+
+ .policy_container .policy_divider {
+     width: 43.6%;
+ }
+
+ .policy_container .policy_ch {
+     width: 28.7%;
+ }
+
+ .policy_container .protection_divider {
+     width: 37.7%;
+ }
+
+ .policy_container .condition_divider {
+     width: 22.7%;
+ }
+
+ .policy_container .user_cons_divider {
+     width: 15.7%;
+ }
+
+ .policy_container .security_divider {
+     width: 11%;
+ }
+
+ .policy_container .wide_transfer_divider {
+     width: 23%;
+ }
+
+ .policy_container .no_children_divider {
+     width: 54.5%;
+ }
+
+ .policy_container .obey_divider {
+     width: 20.5%;
+ }
+
+ .policy_container .comun_divider {
+     width: 20%;
+ }
+
+ .policy_container .cookie_divider {
+     width: 10%;
+ }
+
+ .policy_container p {
+     font-family: "Barlow", Sans-serif;
+     font-weight: 400;
+     margin-bottom: 1.5rem;
+ }
+
+ .policy_container a {
+     text-decoration: none;
+     color: #c36;
+ }
+
+ @media screen and (max-width:999px) {
+     #policy_sec .policy_content_sec {
+         padding-left: 1.4rem;
+         padding-right: 1.4rem;
+         overflow: hidden;
+     }
+
+     .policy_content_sec .policy_container {
+         max-width: 100%;
+     }
+
+     .policy_container .policy_divider {
+         width: 83%;
+     }
+
+     .policy_container .policy_ch {
+         width: 100%;
+     }
+
+     .policy_container .protection_divider {
+         width: 88%;
+     }
+
+     .policy_container .user_cons_divider {
+         width: 53%;
+     }
+
+     .policy_container .security_divider {
+         width: 33%;
+     }
+
+
+     .policy_container .condition_divider {
+         width: 76%;
+     }
+
+     .policy_container .wide_transfer_divider {
+         width: 77%;
+     }
+
+     .policy_container .no_children_divider {
+         width: 84.5%;
+     }
+
+     .policy_container .obey_divider {
+         width: 20.5%;
+     }
+
+     .policy_container .comun_divider {
+         width: 66%;
+     }
+
+     .policy_container .cookie_divider {
+         width: 34%;
+     }
+
+ }
+
+ @media screen and (min-width:999px) and (max-width:1280px) {
+     #policy_sec .policy_content_sec {
+         padding-left: 1.4rem;
+         padding-right: 1.4rem;
+         overflow: hidden;
+     }
+
+     .policy_content_sec .policy_container {
+         max-width: 100%;
+     }
+ }

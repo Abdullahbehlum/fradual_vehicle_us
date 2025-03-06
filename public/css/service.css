@@ -1,0 +1,184 @@
+.service-section {
+    background-image: url(../assets/24572776_sl_031520_28970_10-1-scaled-1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 660px;
+    max-width: 1379px;
+
+}
+
+.service-section .spc_service {
+    padding-top: 8rem;
+}
+
+.service-wrap {
+    margin-left: auto;
+    max-width: 1140px;
+    margin-right: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 340px 800px;
+    column-gap: 40px;
+    margin-bottom: 2.5rem;
+}
+
+.service-wrap .service_col1 {
+    background: #f7f8fa;
+    padding: 22px 33px;
+
+}
+
+.service_col1 h2 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #000000;
+    padding-bottom: 8px;
+}
+
+.service_list li {
+    list-style: none;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #eeecec;
+}
+
+.service_list li:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.service_list li a {
+    display: flex;
+    align-items: center;
+    column-gap: 9px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #000000;
+    transition: color 0.4s;
+    text-decoration: underline ;
+}
+
+.service_list svg {
+    width: 14px;
+    height: 14px;
+    fill: #000000;
+    transition: fill 0.3s;
+}
+
+.service_list li a:hover svg {
+    fill: var(--hv_color);
+}
+
+
+.service_col2 h6 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 1.4em;
+    letter-spacing: 0.25em;
+    color: #F15543;
+}
+
+.service_col2 h1 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 57px;
+    letter-spacing: 1.3px;
+    color: #000000;
+}
+
+.custom-divider {
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 12px;
+}
+
+.custom-divider .divider-separator {
+    mask-image:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' overflow='visible' height='100%' viewBox='0 0 24 24' fill='black' stroke='none'%3E%3Cpolygon points='9.4,2 24,2 14.6,21.6 0,21.6'/%3E%3C/svg%3E");
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' overflow='visible' height='100%' viewBox='0 0 24 24' fill='black' stroke='none'%3E%3Cpolygon points='9.4,2 24,2 14.6,21.6 0,21.6'/%3E%3C/svg%3E");
+    padding-block-start: 17px;
+    padding-block-end: 17px;
+    direction: ltr;
+    display: flex;
+    margin: 0;
+    mask-size: 21.8px 100%;
+    min-height: 20.5px;
+    background-color: #F15543;
+    mask-repeat: repeat-x;
+    -webkit-mask-repeat: repeat-x;
+    border-block-start: 1px solid var(--hv_color);
+    width: 29%;
+}
+
+.service_col2 p {
+    padding-bottom: 5px;
+}
+
+.service-section .featured_gallery {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    max-width: 1140px;
+    margin-right: auto;
+    column-gap: 2.4rem;
+    padding-bottom: 2rem;
+}
+
+.featured_gallery img {
+    width: 660px;
+}
+
+
+@media screen and (max-width: 999px) {
+    .service-section {
+        max-width: 100%;
+
+    }
+
+    .service-section .spc_service {
+        padding-top: 4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+
+    .service-wrap {
+        grid-template-columns: 1fr;
+        margin-bottom: 1.5rem;
+    }
+
+    .service-wrap .service_col1 {
+        margin-bottom: 2.4rem;
+    }
+
+    .service-wrap .service_col2 {
+        padding-bottom: 2.4rem;
+    }
+
+    .service_col2 h1 {
+        font-size: 27px;
+        line-height: 1.3em;
+    }
+
+    .custom-divider .divider-separator {
+        width: 90%;
+    }
+
+    .service-section .featured_gallery {
+        flex-direction: column;
+    }
+
+    .featured_gallery img {
+        margin-bottom: 1rem;
+    }
+}

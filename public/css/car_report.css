@@ -1,0 +1,308 @@
+#car-report {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+#car-report .car_report_service {
+    background-image: url(../assets/2607293_4981.jpg-1.webp);
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-position: right center;
+    padding-top: 8rem;
+    margin-bottom: 9px;
+}
+
+.car_report_service::before {
+    content: "";
+    background: white;
+}
+
+.car_report_service .car_report_contain {
+    max-width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.car_report_contain .car_report_wrap {
+    display: flex;
+    column-gap: 2.1rem;
+}
+
+.car_report_wrap .left_side {
+    width: 25%;
+}
+
+
+
+
+#car_care_shcs {
+    background-color: black;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+
+.left_side .service_list {
+    padding-left: 0;
+    list-style: none;
+    position: relative;
+    top: 2.4rem;
+
+}
+
+
+.left_side .divide_sm {
+    border-bottom: 3.4px solid #F15543;
+    padding-block-start: 15px;
+}
+
+.left_side .heading {
+    background-color: #F15543;
+    font-family: "Barlow", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    fill: #FFFFFF;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    position: relative;
+    top: 10px;
+
+}
+
+.left_side .service_list {
+    padding-bottom: 1.4rem;
+}
+
+.left_side .service_list li {
+    border-bottom: 1px solid #cbcbcb;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.left_side .service_list li a {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    color: #000;
+    text-decoration: underline #F15543;
+}
+
+.service_list li a svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+.service_list li a:hover svg {
+    fill: var(--hv_color);
+}
+
+
+
+
+.right_side {
+    max-width: 990px;
+
+}
+
+.right_side h6 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 1.4em;
+    letter-spacing: 0.25em;
+    color: #F15543;
+
+}
+
+
+
+.right_side h2 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    text-transform: lowercase;
+    line-height: 57px;
+    letter-spacing: 1.3px;
+    color: #000000;
+}
+
+.right_side h5 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    color: #505050;
+    line-height: 1;
+    margin-bottom: 1.3rem;
+
+}
+
+
+.right_side .report_right_h_wrap {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-top: -15px;
+}
+
+.right_side p {
+    font-family: "Barlow", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #1D1D1D;
+
+}
+
+
+#service_package_sec {
+    background-image: url(../assets/2607293_4981.jpg-1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    min-height: 650px;
+    padding-top: 3rem;
+    padding-bottom: 3.6rem;
+}
+
+#service_package_sec .packages_container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.packages_container .pricing_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.6rem;
+}
+
+
+
+.show_br {
+    display: block;
+}
+
+.left_side .service_list li:last-child {
+    border-bottom: 0;
+}
+
+.left_side .ser_mail_box {
+    background-color: #EFEFEF;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.ser_mail_box .icon_sr {
+    background-color: #4B4B4B;
+    padding: .5em;
+
+}
+
+.ser_mail_box .icon_sr svg {
+    width: 1.6rem;
+    height: 1.6rem;
+    fill: #F15543;
+}
+
+.left_side .content_w_sr h3 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+
+.left_side .content_w_sr h5 {
+    color: #000000;
+    font-family: "Barlow", Sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:999px) {
+    .car_report_service .car_report_contain {
+        max-width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .car_report_contain .car_report_wrap {
+        flex-direction: column;
+    }
+
+    .right_side .report_right_h_wrap {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .left_side .service_list {
+        top: 0;
+        margin-top: 2.4rem;
+    }
+
+    #car-report .car_report_service {
+        /* padding-top: 1rem; */
+        background-size: cover;
+        background-position: center;
+        padding-bottom: 1rem;
+
+    }
+
+    .car_report_wrap .left_side {
+        width: 100%;
+        padding-bottom: 2.3rem;
+    }
+
+    .right_side {
+        width: 100%;
+    }
+
+    #service_package_sec .packages_container {
+        max-width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .packages_container .pricing_container {
+        grid-template-columns: 1fr;
+    }
+
+    .right_side h2 {
+        font-size: 18px;
+        line-height: 1.3em;
+    }
+
+    .right_side h5 {
+        font-size: 19px;
+        line-height: 1.3;
+    }
+
+    .right_side p {
+        font-size: 15px;
+        letter-spacing: 0.6px;
+    }
+
+    .show_br {
+        display: none;
+    }
+
+    .left_side .service_list  {
+        padding-bottom: 0;
+    }
+}

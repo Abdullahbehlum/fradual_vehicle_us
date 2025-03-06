@@ -1,0 +1,98 @@
+#care_vehicle_sec {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#care_vehicle_sec .vehicle_care_container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+}
+
+
+.vehicle_care_container .care_vehicle_bg {
+    background-color: transparent;
+    background-image: linear-gradient(135deg, #E5591F 60%, #000000 100%);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 2em 2em 2em 2em;
+    border-radius: 83px 83px 83px 83px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.care_vehicle_bg .vehicle_bg_overlay {
+    opacity: 0.10;
+    background-image: url(../assets/bg_header.png);
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    min-height: 610px;
+    position: absolute;
+    inset: 0;
+}
+
+.care_vehicle_bg .care_Vehicle_content {
+    z-index: 20;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.care_Vehicle_content h1 {
+    font-family: "Barlow", Sans-serif;
+    font-size: 41px;
+    font-weight: 800;
+    line-height: 42px;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    width: 70%;
+}
+
+.care_Vehicle_content .btn-qoute {
+    background-color: #E5591F;
+    font-family: "Barlow", Sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    letter-spacing: 3px;
+    fill: #000000;
+    color: #000000;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 0px 0px 0px 0px;
+    padding: 15px 30px 15px 30px;
+}
+
+.btn-qoute:focus {
+    background: #69727D;
+    color: white;
+}
+
+
+@media screen and (max-width: 999px) {
+    #care_vehicle_sec  {
+        margin-top: 0;
+    }
+    .care_vehicle_bg .care_Vehicle_content {
+        flex-direction: column;
+    }
+
+    .care_Vehicle_content h1 {
+        width: 100%;
+        font-size: 17px;
+        line-height: 1.3em;
+        text-align: center;
+    }
+
+    #care_vehicle_sec .vehicle_care_container {
+        max-width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .vehicle_care_container .care_vehicle_bg {
+        padding: 1rem;
+    }
+}
